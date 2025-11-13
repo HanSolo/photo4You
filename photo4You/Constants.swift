@@ -6,12 +6,16 @@
 //
 
 import Foundation
+import UIKit
 
 
 public struct Constants {
-    public static let APP_GROUP_ID    : String = "group.eu.hansolo.photo4you"
+    public static let APP_GROUP_ID     : String  = "group.eu.hansolo.photo4you"
     
-    public static let SECONDS_PER_DAY : Double = 86400
+    public static let SECONDS_PER_DAY  : Double = 86400
+    public static let IS_IPAD          : Bool   = UIDevice.current.userInterfaceIdiom == .pad
+    public static let BRIGHTNESS_DAY   : Double = 0.0
+    public static let BRIGHTNESS_NIGHT : Double = 0.75
     
     
     // ********** ENUMS **********
